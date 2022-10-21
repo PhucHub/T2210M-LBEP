@@ -1,22 +1,13 @@
 #include<stdio.h>
-#include <conio.h>
- int main(){
-   
-   long int a;
-   scanf("%d",&a);
-   	 
-   	 if(a<=100){
-   	 int b=(a*5/100);
-   	 	  printf("Voi doanh so la %d trieu thi tien hoa hong la %d trieu ",a,b);
-		}else{
-			if(a<=300){
-			int b=(a*10/100);
-				printf("Voi doanh so la %d trieu thi tien hoa hong la %d trieu ",a,b);
-			}else{
-				if(a>300){
-				int b=(a*20/100);
-					printf("Voi doanh so la %d trieu thi tien hoa hong la %d trieu ",a,b);
-				}
-			}
+int main(){
+	int n;
+	scanf("%d",&n);
+	printf("Nhap n = %d\n ",n);
+printf("Cac so le nho hon %d la ",n);
+	int i=1;
+	while(i<n){
+		i+=2;
+		printf("%d,",i);
 		}
- }
+	
+}
