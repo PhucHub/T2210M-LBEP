@@ -6,12 +6,14 @@ int main(){
 	int i=2;
 	
 	if(n<2){
-		printf("n khong phai so nguyen to");
+		printf("%d khong phai so nguyen to",n);
 	}else{
-	     while((i<=n)&&(n%i!=0)){
-	
+	     if ((i<=n)&&(n%i!=0)){
+	     printf("%d la so nguyen to",n);
+		}else{
+			printf("%dkhong phai so nguyen to",n);	
 		}
-	      printf("%d la so nguyen to",n);
+	      
 	}
 	
 }
