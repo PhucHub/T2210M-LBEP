@@ -1,13 +1,19 @@
-#include<stdio.h>
-int main() {
-	int n;
-	scanf("%d", &n);
-    printf("Nhap n = %d\n",n);
-	int i=6;
-	while(i<n&&i%2==0&&i%3==0){
-	i+=6;	
-	}
-	printf("So lon nhat nho hon %d chia het cho 2,3 la %d",n,i );
-	
-
+#include <stdio.h>
+int main(){
+    int a,b,uc,bc;
+    printf("Nhap (a,b): ");
+    scanf("%d%d",&a,&b);
+    for (uc=a;uc>=1;uc--){
+        if (a%uc==0 && b%uc==0){
+            printf("UCLN(%d,%d)=%d\n",a,b,uc);
+            break;
+        }
+    }
+    for (bc=a;bc<=a*b;bc++){
+        if (bc%a==0 && bc%b==0){
+            printf("BCNN(%d,%d)=%d\n",a,b,bc);
+            break;
+        }
+    }
+  
 }

@@ -1,20 +1,16 @@
 #include<stdio.h>
-#include<math.h>
 int main(){
-   int n;
-   scanf("%d",&n);
-    printf("So nhap vao la %d\n",n);
-    int i = 0; 
-   	while (n > 0) {
-    i = i * 10 + n % 10;
-    n /= 10;
-   
-  } 
-  printf("So nghich dao la %d\n",i);
-  
- 
+    int n;
+    int x;
+    printf("Nhap n: ");
+    scanf("%d",&n);
+    if(n<0){
+    	printf("So nhap phai la so duong.Vui long nhap lai");
+	}else{
+		for(;n>0;){
+        x = n % 10;
+        n /= 10;
+    }   
+	printf("Chu so dau la %d",x);
+	}
 }
-
-
- 
- 

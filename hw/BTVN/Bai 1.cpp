@@ -1,13 +1,15 @@
 #include<stdio.h>
 int main(){
 	int n;
+	printf("So da nhap  ");
 	scanf("%d",&n);
-	printf("Nhap n = %d\n ",n);
-printf("Cac so le nho hon %d la ",n);
-	int i=1;
-	while(i<n){
-		i+=2;
-		printf("%d,",i);
-		}
-	
+	int S=0;
+	printf("Cac uoc so cua %d là: ",n);
+	for(int i=1;i<=n;i++){
+		if(n%i==0){
+		S=S+i;
+		printf("%4d",i);
+	}
+	}
+     printf("\nTong cac uoc cua %d la %d",n,S);
 }

@@ -1,19 +1,15 @@
 #include<stdio.h>
 int main(){
-	int n;
-	printf("So da nhap  ");
-	scanf("%d",&n);
-	int i=2;
-	
-	if(n<2){
-		printf("%d khong phai so nguyen to",n);
-	}else{
-	     if ((i<=n)&&(n%i!=0)){
-	     printf("%d la so nguyen to",n);
-		}else{
-			printf("%dkhong phai so nguyen to",n);	
-		}
-	      
-	}
-	
+    int n;
+    int x;
+    int s = 0;
+    printf("Nhap n: ");
+    scanf("%d",&n);
+    for(;n!=0;){
+        x = n % 10;
+        s += x;
+        n /= 10;
+    }    
+    printf("Tong cac chu so la %d",s);
 }
+
