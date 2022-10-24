@@ -9,10 +9,10 @@ int tinhTong(int a,int b){
 			printf("c la so lon hon");
 		}else{
 			printf("d la so lon hon");
-		}
-		return;
+		} 
+	
 	}
 	int main(){
 		int x=10,y=20;
-	    int Max;
+	    int tinhTong(c);
 	}
