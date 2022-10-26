@@ -1,6 +1,5 @@
 #include<stdio.h>
 #include"Thu vien.h"
- 
  int main(){
  	int n;
  	int d;
