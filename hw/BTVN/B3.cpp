@@ -9,7 +9,7 @@
 		x1=x2;
 		x2=x0+x1;
 	}
-	printf("La so %d trong day Fibonaci ",x2);
+      return x2;
 }
  int main(){
  	int n;
@@ -17,6 +17,7 @@
  	printf("So da nhap  ");
 	scanf("%d",&n);
 	d=N(n);
+	printf("La so %d trong day Fibonaci ",d);
  }
 	
 	
