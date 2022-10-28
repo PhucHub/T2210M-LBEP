@@ -45,7 +45,7 @@ float S=0;
     S+= 1.0 / i;
   }
   if(S<10000){
-  	S++;
+  	n++;
   }else{
   	return S;
   }
