@@ -24,8 +24,9 @@ j = 0;
 i++;
 }
 
-if (flag!=0)
+if (flag!=0){
 printf("Chuoi thu hai nam trong chuoi thu nhat\n");
-else
+}else{
 printf("Chuoi thu hai khong nam trong chuoi thu nhat\n");
+}
 }
