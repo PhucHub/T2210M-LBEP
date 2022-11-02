@@ -11,18 +11,14 @@ scanf("%s",s2);
 int i = 0, j = 0;
 int flag = 0;
 
-while (s1[i] != 0)
-{
-if (s1[i] == s2[j])
-{
+while (s1[i] != 0){
+if (s1[i] == s2[j]){
 j++;
-if (s2[j] == 0)
-{
+if (s2[j] == 0){
 flag = 1;
 break;
 }
-}
-else
+}else
 j = 0;
 
 i++;
